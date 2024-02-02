@@ -22,6 +22,11 @@
     color: white;
   }
 
+  input {
+    background-color: #111111;
+    color: white;
+  }
+
   /* text */
 
   .text-white {
