@@ -1,0 +1,25 @@
+:root {
+  --light: white;
+  --dark: #111111;
+  --white: white;
+  --black: black;
+  --red: red;
+  --orange: orange;
+  --yellow: yellow;
+  --lime: lime;
+  --green: green;
+  --lightblue: lightblue;
+  --blue: blue;
+  --Violet: violet;
+  --brown: brown;
+  --gray: gray;
+}
+
+.dark-mode {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+* {
+  transition: background-color 0.15s ease, color 0.1s ease;
+}
