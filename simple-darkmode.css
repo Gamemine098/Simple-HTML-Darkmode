@@ -1,3 +1,7 @@
+* {
+  transition: background-color 0.15s ease, color 0.1s ease;
+}
+
 :root {
   --black: black;
   --white: white;
@@ -126,10 +130,6 @@
   .bg-gray {
     background-color: var(--gray);
   }
-}
-
-* {
-  transition: background-color 0.15s ease, color 0.1s ease;
 }
 
 /* text */
